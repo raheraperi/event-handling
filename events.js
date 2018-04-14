@@ -54,7 +54,7 @@ function four () {
   var one = document.getElementById('four')
 
   // Next, we add an event listener to it:
-  one.addEventListener('mouseenter', makePurple)
+  one.addEventListener('click', makePurple)
 
   // Finally, we add one to make the colour white again
   one.addEventListener('mouseleave', makeWhite)
